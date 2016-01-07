@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tilakrajverma/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-21ddc17ff06ea685054727d3e661ac0483a1348d.jar" />
+    </item>
+    <item
+        jar="/Users/tilakrajverma/NoteShare/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-64b3ac707c81ac419c72f526389c4dc3dc594286.jar" />
+    </item>
+    <item
+        jar="/Users/tilakrajverma/NoteShare/app/libs/isoparser-1.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6d9a5c5814ec67178dd1d5a25bae874d4697a5b8">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/pre-dexed/debug/isoparser-1.0.2-b08f59a8adb706ef79cef5b3bb1fe1b23a6f9ab2.jar" />
+    </item>
+    <item
+        jar="/Users/tilakrajverma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/pre-dexed/debug/gson-2.3.1-d1ce35b08cf62320547d4f4462de0473adb871f2.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:layout_marginBottom="0dp" >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shadow"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/text_note_row" android:id="@+id/text_note_row"/>
+
+
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/background_light"
+            android:id="@+id/showhideView"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+
+            android:weightSum="8"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/editNoteTitle"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit_menu_icon"
+                android:layout_height="match_parent" />
+
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteTimeBomb"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/tim_bomb_icon"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteremindertime"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/reminder_menu_icon"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteLock"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/lock_menu_icon"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteunlockLock"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/unlock_menu_icon"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="40dp"
+                android:id="@+id/noteMoveToFolder"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/move_menu_icon"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="40dp"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+
+                android:id="@+id/noteAddColor"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/color_icon"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteDelete"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete_menu_icon"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_weight="1"
+                android:id="@+id/noteShare"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/share_menu_icon"
+                android:padding="0dp"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
